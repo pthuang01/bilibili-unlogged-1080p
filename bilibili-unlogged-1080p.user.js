@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name              Bilibili - 免登入觀看 1080P
-// @name:zh-CN        Bilibili - 免登入觀看 1080P
-// @name:zh-TW        哔哩哔哩 - 免登录观看 1080P
+// @name:zh-TW        Bilibili - 免登入觀看 1080P
+// @name:zh-CN        哔哩哔哩 - 免登录观看 1080P
 // @namespace         https://greasyfork.org/
-// @version           1.0.0
+// @version           1.1.0
 // @description       免登入狀態下解鎖 B 站 1080P 高清畫質
 // @description:zh-TW 免登入狀態下解鎖 B 站 1080P 高清畫質
 // @description:zh-CN 免登录状态下解锁 B 站 1080P 高清画质
@@ -13,7 +13,7 @@
 // @icon              https://www.bilibili.com/favicon.ico
 // @run-at            document-start
 // @grant             unsafeWindow
-// @license           MIT
+// @license           GPL-3.0
 // ==/UserScript==
 
 (function () {
