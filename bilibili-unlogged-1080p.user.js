@@ -2,7 +2,7 @@
 // @name              Bilibili - 免登入觀看 1080P
 // @name:zh-TW        Bilibili - 免登入觀看 1080P
 // @name:zh-CN        哔哩哔哩 - 免登录观看 1080P
-// @namespace         https://greasyfork.org/
+// @namespace         https://github.com/pthuang01/bilibili-unlogged-1080p
 // @version           1.1.0
 // @description       免登入狀態下解鎖 B 站 1080P 高清畫質
 // @description:zh-TW 免登入狀態下解鎖 B 站 1080P 高清畫質
