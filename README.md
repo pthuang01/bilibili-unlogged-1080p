@@ -3,7 +3,7 @@
 # 📺 Bilibili - 免登入觀看 1080P<br />Bilibili Login-Free 1080P
 
 [![License: GPL-3.0](https://img.shields.io/badge/License-GPL--3.0-blue.svg)](https://opensource.org/licenses/GPL-3.0)
-[![Version](https://img.shields.io/badge/Version-1.1.0-green)](https://github.com/pthuang01/bilibili-unlogged-1080p)
+[![Version](https://img.shields.io/badge/Version-2.0.0-green)](https://github.com/pthuang01/bilibili-unlogged-1080p)
 [![Greasy Fork](https://img.shields.io/badge/Greasy%20Fork-安裝-960000)](https://update.greasyfork.org/scripts/596490/Bilibili%20-%20%E5%85%8D%E7%99%BB%E5%85%A5%E8%A7%80%E7%9C%8B%201080P.user.js)
 [![Platform](https://img.shields.io/badge/Platform-Tampermonkey%20%7C%20Violentmonkey-orange)](#-安裝教學)
 
@@ -87,14 +87,14 @@
 ## ❓ 常見問題 (FAQ)
 
 1. **怎麼確認目前播放的是不是真正的 1080P？**
-   * 在 B 站播放器畫面中點擊「滑鼠右鍵」➜ 選擇「統計信息」，即可檢視 `Resolution` 參數。如果顯示為 `1920 x 1080`（如頂部效果實測圖所示），即代表目前串流是真正的 1080P 高清。
+   * 在 B 站播放器畫面中點擊「滑鼠右鍵」➜ 選擇「統計信息」，即可檢視 `Resolution` 參數。如果顯示為 `1920 x 1080`（如頂部效果實測圖所示），即代表目前串流是真正的 1080P 高清
 2. **為什麼有些影片依然沒有 1080P 選項？**
    * **原片上限**：若 UP 主投稿時原始最高畫質僅為 720P 或 480P，腳本無法憑空產生 1080P
    * **大會員專屬規格**：部分特殊高規（如 4K、1080P 高碼率、1080P 60幀、杜比視界）受 B 站伺服器付費鑑權保護。本腳本提供的是**免費用戶所能達到的最高清晰度（標準 1080P）**
 3. **使用這款腳本，會導致我的 B 站帳號被封嗎？**
    * **完全不會！** 本腳本專為「**未登入**」狀態設計，全程無需登入任何個人帳號，完全零封號風險；且所有串流資料皆來自 B 站官方公開介面，純本機執行，無任何違規封包
 4. **支援番劇（動畫）與影視專區嗎？**
-   * 支援一般常規影片以及免費用戶可觀看的番劇集數；若為「僅限大會員」或「單片付費」等受伺服器嚴格版權保護的集數，無法透過本腳本跨越付費權限
+   * **不支援。** B 站番劇並未提供未登入用戶 1080P 試看接口，且具備獨立的鑑權體系，因此本腳本僅專注於主站常規影片（`www.bilibili.com/video/*`）的 1080P 高清解鎖
 5. **如果自己網路卡頓，可以手動降回 720P 或其他畫質嗎？**
    * 可以。腳本僅自動切換並鎖定 1080P，同時保留了使用者的手動操作權限，您依然能隨時在播放器畫質選單中自行切換至 720P、480P 等畫質
 6. **遇到問題或有功能建議，該如何回報？**
